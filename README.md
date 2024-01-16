@@ -8,7 +8,7 @@ Membres du projet:
 
 Je (Thomas) me suis occupé de la plupart des scripts de gameplay et des modèles importés depuis le Unity Asset Store, et Mélanie s'est occupée de la map et des animations
 
-Dans ce jeu, on retrouve des pièces, un téléporteur, et un coffre qui peut s'ouvrir à l'aide d'une clé présente dans la map. (voir Chest.cs)
+Dans ce jeu, on retrouve des élements tels que des pièces, un téléporteur, et un coffre qui peut s'ouvrir à l'aide d'une clé présente dans la map. (voir Chest.cs)
 
 Ces objets sont maintenus dans la main du joueur. Pour cela, nous avons modifié son rig en ajoutant un GameObject dont le seul but est d'être le parent des objets tenus par le joueur. (Voir Player.cs#setHeldObject())
 
